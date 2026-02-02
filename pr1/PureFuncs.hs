@@ -10,7 +10,7 @@ absValue x
   | x < 0     = -x
   | otherwise = x
 
---быльше з двох
+--більше з двох
 maxOfTwo :: Int -> Int -> Int
 maxOfTwo a b = if a > b then a else b
 
@@ -25,4 +25,3 @@ recursSum :: [Int] -> Int
 recursSum [] = 0       
 recursSum (x:xs) = x + recursSum xs
 
--- [Int] - список цілих чисел
