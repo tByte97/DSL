@@ -1,5 +1,5 @@
 myMax :: [Int] -> Int
-myMax [] = error "Порожній список!"
+myMax [] = error "Порожній список"
 myMax [x] = x
 myMax (x:xs) = if x > m then x else m
   where m = myMax xs
